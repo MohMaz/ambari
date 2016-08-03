@@ -1,4 +1,4 @@
-FROM quay.io/mohammadmazraeh/ambari-base
+FROM quay.io/digikala/ambari-base
 RUN apt-get -y install ambari-server
 RUN	ambari-server setup -s
 	
